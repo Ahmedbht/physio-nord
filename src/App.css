@@ -484,7 +484,10 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 2px;
+}
+.footer-logo .logo-img{
+    margin-bottom: 20px;
 }
 /*responsive design*/
 @media (max-width: 768px) {
