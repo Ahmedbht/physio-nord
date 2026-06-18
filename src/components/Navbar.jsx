@@ -1,8 +1,10 @@
 import{Phone} from 'lucide-react';
+import logo from '../logophysio.png'
 function Navbar(){
     return(
         <nav className="navbar">
             <div className='navbar-logo'>
+                <img src={logo} alt='Physio Nord' className='logo-img'/>
                 <h1>Physio<span>Nord</span></h1>
             </div>
 
