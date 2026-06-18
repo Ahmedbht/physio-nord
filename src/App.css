@@ -513,4 +513,11 @@ body{
     .contact-content{
         flex-direction: column;
     }
+    .footer {
+        padding: 40px 20px 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
