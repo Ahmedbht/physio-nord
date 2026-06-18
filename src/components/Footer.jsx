@@ -1,10 +1,14 @@
 import { Phone, MapPin, Mail } from "lucide-react";
+import logo from '../logophysio.png';
 function Footer() {
     return (
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-brand">
+                    <div className="footer-logo">
+                    <img src={logo} alt="Physio Nord" className="logo-img"/>
                     <h2>Physio<span>Nord</span></h2>
+                    </div>
                     <p>Centre spécialisé en kinésithérapie et rééducation fonctionnelle à Tétouan, Maroc.</p>
                 </div>
                 <div className="footer-links">

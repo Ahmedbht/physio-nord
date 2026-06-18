@@ -1,5 +1,5 @@
 import{Phone} from 'lucide-react';
-import logo from '../logophysio.png'
+import logo from '../logophysio.png';
 function Navbar(){
     return(
         <nav className="navbar">
