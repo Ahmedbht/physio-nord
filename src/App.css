@@ -18,6 +18,10 @@ body{
     align-items: center;
     gap: 10px;
 }
+.logo-img{
+    height: 50px;
+    object-fit: contain;
+}
 .navbar-logo h1{
     font-size: 1.5rem;
     color: #1a1a2e;
