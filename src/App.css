@@ -471,3 +471,46 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/*responsive design*/
+@media (max-width: 768px) {
+
+    .navbar{
+        padding: 16px 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero-description{
+        font-size: 1rem;
+    }
+    .hero-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service{
+        padding: 60px 20px;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .about {
+        padding: 60px 20px;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .about-image {
+        height: 300px;
+    }
+    .contact {
+        padding: 60px 20px;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+}
