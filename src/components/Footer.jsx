@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail, Facebook, Instagram } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 function Footer() {
     return (
         <footer className="footer">
