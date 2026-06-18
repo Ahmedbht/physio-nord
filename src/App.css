@@ -45,7 +45,7 @@ body{
     background-color: #0a9e8f;
 }
 .navbar-links a:hover {
-    color: #0a9e8f;
+    color: #000000;
 }
 .navbar-phone {
     display: flex;
