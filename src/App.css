@@ -34,7 +34,15 @@ body{
     gap: 30px;
     list-style: none;
 }
-
+.navbar-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+.navbar-links a:hover {
+    color: #0a9e8f;
+}
 .navbar-phone {
     display: flex;
     align-items: center;
