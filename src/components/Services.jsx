@@ -1,11 +1,12 @@
-import{Activity, Heart,Bone , Brain, Baby, Zap} from 'lucide-react';
+import{Activity, Heart,Bone , Brain, Baby, Zap,Users, } from 'lucide-react';
 import kine from "../kine.jpg"
 import cardio from "../cardio.jpg";
 import ortho from "../ortho.jpg";
 import neuro from "../neuro.jpg";
 import pediatric from "../pediatric.jpg";
 import electro from "../electro.jpg";
-
+import gerio from "../gerio.jpg";
+import respiratoir from "../respiratoir.jpg";
 function Services(){
     const services=[
        {
@@ -50,7 +51,20 @@ function Services(){
     title: "Réadaptation Cardio-Respiratoire",
     description: "Programme de rééducation pour les pathologies cardiaques et respiratoires."
 },
-
+{
+    id: 7,
+    icon: <Users size={36}/>,
+    image: gerio,
+    title: "Gério-Kinésithérapie",
+    description: "Soins adaptés aux personnes âgées pour maintenir leur autonomie et leur mobilité."
+},
+{
+    id: 8,
+    icon: <Heart size={36}/>,
+    image: respiratoir,
+    title: "Réadaptation Cardio-Respiratoire",
+    description: "Programme de rééducation pour les patients souffrant de pathologies cardiaques et respiratoires."
+},
     ];
 
     return(
